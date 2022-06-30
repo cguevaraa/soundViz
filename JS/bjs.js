@@ -7,7 +7,7 @@ const audioCtx = new AudioContext();
 //Create audio source
 //Here, we use an audio file, but this could also be e.g. microphone input
 const audioEle = new Audio();
-audioEle.src = 'wk.mp3';//insert file name here
+audioEle.src = 'src/wk.mp3';//insert file name here
 audioEle.autoplay = true;
 audioEle.preload = 'auto';
 const audioSourceNode = audioCtx.createMediaElementSource(audioEle);
